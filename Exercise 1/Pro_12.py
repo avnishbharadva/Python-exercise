@@ -1,6 +1,3 @@
-from multiprocessing.connection import answer_challenge
-
-
 f = 0
 s = 1
 
