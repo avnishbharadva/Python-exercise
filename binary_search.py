@@ -1,3 +1,5 @@
+# Binary Search in Python
+
 arr = [23,56,7,3,98,67,45]
 arr.sort()
 
