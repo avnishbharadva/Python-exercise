@@ -1,3 +1,8 @@
+# Name : Avnish Bharadva
+# Roll NO : 2
+# Date : 21/8/2022
+# BCA 5th A
+
 lst = [-9,0,-34,12,7,48,9,21]
 
 for i in range(len(lst)-1):
