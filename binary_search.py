@@ -1,3 +1,8 @@
+# Name : Avnish Bharadva
+# Roll NO : 2
+# Date : 21/8/2022
+# BCA 5th A
+
 # Binary Search in Python
 
 arr = [23,56,7,3,98,67,45]
