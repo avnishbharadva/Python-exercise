@@ -1,3 +1,8 @@
+# Name : Avnish Bharadva
+# Roll NO : 2
+# Date : 21/8/2022
+# BCA 5th A
+
 lst = [0,1,2,3,4,5,6,7,8]
 
 ptrn = 0
