@@ -44,5 +44,6 @@ else:
     print("Found")
     print(str)
     print(str.group(0))
+    print(str.string)
     print(str.span(0))
     print(str.span(0)[0],str.span(0)[1])
