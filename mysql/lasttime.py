@@ -26,30 +26,30 @@ db.commit()
 
 # Update Code
 
-# sid = int(input("Enter ID for Update : "))
+sid = int(input("Enter ID for Update : "))
 
-# snm = input("New Name : ")
-# sem = input("New EMail : ")
-# spass = input("New Password : ")
+snm = input("New Name : ")
+sem = input("New EMail : ")
+spass = input("New Password : ")
 
-# uptu = (snm,sem,spass,sid)
+uptu = (snm,sem,spass,sid)
 
-# mycursor.execute("update lasttimetable set sname=%s,semail=%s,spass=%s where sid=%s",uptu)
+mycursor.execute("update lasttimetable set sname=%s,semail=%s,spass=%s where sid=%s",uptu)
 
-# print(mycursor.rowcount,"row updated")
+print(mycursor.rowcount,"row updated")
 
-# db.commit()
+db.commit()
 
 # Delete Code
 
-# sid = int(input("Enter ID for Delete : "))
+sid = int(input("Enter ID for Delete : "))
 
-# dt = (sid,)
+dt = (sid,)
 
-# mycursor.execute("delete from lasttimetable where sid=%s",dt)
+mycursor.execute("delete from lasttimetable where sid=%s",dt)
 
-# print(mycursor.rowcount,"row deleted...")
-# db.commit()
+print(mycursor.rowcount,"row deleted...")
+db.commit()
 
 mycursor.execute("select * from lasttimetable")
 
