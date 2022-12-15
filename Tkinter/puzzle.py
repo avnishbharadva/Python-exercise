@@ -68,7 +68,7 @@ b12 = tk.Button(win,text=randomlist[11],width="10",height="5", bg="hotpink", fon
 b13 = tk.Button(win,text=randomlist[12],width="10",height="5", bg="hotpink", font=("Helvetica", 14),command=lambda : check_blank(b13))
 b14 = tk.Button(win,text=randomlist[13],width="10",height="5", bg="hotpink", font=("Helvetica", 14),command=lambda : check_blank(b14))
 b15 = tk.Button(win,text=randomlist[14],width="10",height="5", bg="hotpink", font=("Helvetica", 14),command=lambda : check_blank(b15))
-b16 = tk.Button(win,text=" ",width="10",height="5", font=("Helvetica", 14),command=lambda : check_blank(b16))
+b16 = tk.Button(win,text=" ",width="10",height="5", font=("Helvetica", 14))
 
 b1.grid(row=0,column=0)
 b2.grid(row=0,column=1)
