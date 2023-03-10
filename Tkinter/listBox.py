@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk();
-
+root.geometry("800x")
 def btn_click():
     curindex = lb.curselection()
     print(curindex)
