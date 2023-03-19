@@ -1,4 +1,4 @@
-import numpy as nmp
+import exam as nmp
 arr = nmp.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 # print(arr[slice(1, 5, 2)])
 
